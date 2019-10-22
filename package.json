@@ -1,0 +1,16 @@
+{
+  "name": "@ktb/tsconfig",
+  "version": "0.1.0",
+  "description": "Custom TypeScript related config defaults",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KonTrax/tsconfig.git"
+  },
+  "author": "KonTrax",
+  "license": "ISC",
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json",
+    "tsconfig.check.json"
+  ]
+}

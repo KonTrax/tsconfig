@@ -1,0 +1,44 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"lib": [ "es6" ],
+
+		"module": "commonjs",
+		"moduleResolution": "node",
+
+		/* NOTE: Currently not possible to specify relative paths. Relative paths are resolved relative to current file. */
+		// "outDir":  "dist",
+		// "rootDir": "src",
+
+		/* Output Control */
+		// "noEmit": true,
+		"noEmitOnError": true,
+
+		/* Output */
+		"declaration": true,
+		// "emitDeclarationOnly": true,
+
+		"newLine": "LF",
+
+		/* Strict Type-Checking Option */
+		"strict": true,
+
+		/* Additional Checks */
+		"noUnusedLocals": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUnusedParameters": true,
+
+		/* Other */
+		"forceConsistentCasingInFileNames": true,
+
+		/* Experimental Features */
+		// "experimentalDecorators": true,
+
+		/* Other */
+		// "skipLibCheck": true,
+
+		/* Other */
+		"emitBOM": false
+	}
+}
